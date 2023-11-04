@@ -24,12 +24,6 @@
   "packs": [],
   "languages": [
     {
-      "lang": "de",
-      "name": "Deutsch (German)",
-      "path": "languages/de.json",
-      "flags": {}
-    },
-    {
       "lang": "en",
       "name": "English",
       "path": "languages/en.json",

@@ -1,4 +1,5 @@
 import { CompendiumThemerContainer } from "./compendium-themer-collection";
+import CONSTANTS from "./constants";
 
 export function applyChangesCompendiumBannerBase() {
   const compendiumItems = document.querySelectorAll(".compendium-sidebar .directory-item.compendium");
@@ -42,7 +43,7 @@ export function applyChangesCompendiumHeader() {
       const headerBanner = document.querySelectorAll(`.directory.compendium[data-pack='${dataPack}'] .header-banner`);
       headerBanner.forEach((item) => {
         item.style.color = colorText;
-        item.style["background-image"] = bannerImage;
+        item.style["background-image"] = `url('${bannerImage}')`;
         item.style["background-repeat"] = `no-repeat`;
         item.style["background-position"] = `center`;
         item.style["background-size"] = `cover`;
@@ -152,7 +153,7 @@ export function applyChangeMinimalCss() {
 
   let elements8 = document.querySelectorAll(".compendium-sidebar .directory-item.compendium .compendium-name");
   elements8?.forEach((source) => {
-    source.style["max-width"] = "90%";
+    source.style["max-width"] = "70%";
     source.style["white-space"] = "normal";
     source.style["margin-left"] = "1px";
   });
@@ -166,7 +167,7 @@ export function applyChangeMinimalCss() {
     ".compendium-sidebar .directory-item.compendium .compendium-footer .source"
   );
   elements10?.forEach((source) => {
-    source.styleè["text-overflow"] = "ellipsis";
+    source.style["text-overflow"] = "ellipsis";
     source.style["white-space"] = "nowrap";
     source.style["max-width"] = "70px";
     source.style.overflow = "hidden";

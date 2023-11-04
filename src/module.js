@@ -6,11 +6,38 @@ import {
   applyChangesCompendiumBannerBase,
   applyChangesCompendiumHeader,
 } from "./scripts/main";
+import { registerSettings } from "./scripts/settings";
 
-Hooks.on("setup", () => {
+/* ------------------------------------ */
+/* Initialize module					*/
+/* ------------------------------------ */
+Hooks.once("init", () => {
+  // Register custom module settings
+  registerSettings();
+
+  // initHooks();
+});
+
+/* ------------------------------------ */
+/* Setup module							*/
+/* ------------------------------------ */
+Hooks.once("setup", function () {
+  // Do anything after initialization but before ready
+  //setupHooks();
+
   const data = game.modules.get(CONSTANTS.MODULE_ID);
   data.api = API;
 });
+
+/* ------------------------------------ */
+/* When ready							*/
+/* ------------------------------------ */
+Hooks.once("ready", () => {
+  // Do anything once the module is ready
+  // readyHooks();
+});
+
+// Add any additional hooks if necessary
 
 Hooks.on("renderSidebarTab", (tab) => {
   if (tab instanceof CompendiumDirectory) {
