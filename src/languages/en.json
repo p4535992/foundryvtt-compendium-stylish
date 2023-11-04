@@ -15,8 +15,8 @@
   "compendium-themer.settings.debug.name": "Enable debugging",
   "compendium-themer.settings.debug.label": "Prints debug messages to the console",
   "compendium-themer.settings.debug.hint": " ",
-  "compendium-themer.dialogss.resetsettings.title": "Reset Module Settings",
-  "compendium-themer.dialogss.resetsettings.content": "Are you sure you want to reset all of the module settings to the current system's defaults? <strong>THIS CANNOT BE UNDONE!</strong>",
-  "compendium-themer.dialogss.resetsettings.confirm": "Reset Module Settings",
-  "compendium-themer.dialogss.resetsettings.cancel": "Cancel"
+  "compendium-themer.dialogs.resetsettings.title": "Reset Module Settings",
+  "compendium-themer.dialogs.resetsettings.content": "Are you sure you want to reset all of the module settings to the current system's defaults? <strong>THIS CANNOT BE UNDONE!</strong>",
+  "compendium-themer.dialogs.resetsettings.confirm": "Reset Module Settings",
+  "compendium-themer.dialogs.resetsettings.cancel": "Cancel"
 }

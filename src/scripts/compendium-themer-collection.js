@@ -5,7 +5,7 @@ export const CompendiumThemerContainer = {
     {
       dataPack: `mmm.mmmmi`,
       colorText: `#ff5252`,
-      iconText: ``,
+      iconText: `fa-solid fa-skull-crossbones`,
       bannerImage: `modules/${CONSTANTS.MODULE_ID}/assets/mmm/cover.webp`,
     },
     {

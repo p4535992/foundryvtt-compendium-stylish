@@ -3,7 +3,8 @@ import CONSTANTS from "./scripts/constants";
 import {
   applyChangeMinimalCss,
   applyChangesCompendiumBanner,
-  applyChangesCompendiumBannerBase,
+  applyChangesCompendiumBannerBasePost,
+  applyChangesCompendiumBannerBasePre,
   applyChangesCompendiumHeader,
 } from "./scripts/main";
 import { registerSettings } from "./scripts/settings";
@@ -42,10 +43,11 @@ Hooks.once("ready", () => {
 Hooks.on("renderSidebarTab", (tab) => {
   if (tab instanceof CompendiumDirectory) {
     applyChangesCompendiumBanner();
-    applyChangesCompendiumBannerBase();
+    applyChangesCompendiumBannerBasePre();
     if (game.settings.get(CONSTANTS.MODULE_ID, "applyMinimalCss")) {
       applyChangeMinimalCss();
     }
+    applyChangesCompendiumBannerBasePost();
   }
   if (tab instanceof Compendium) {
     applyChangesCompendiumHeader();

@@ -1,4 +1,5 @@
 import CONSTANTS from "./constants";
+import { log } from "./lib/lib.js";
 
 const debouncedRender = debounce(() => ui.sidebar?.render(false), 50);
 
@@ -30,7 +31,7 @@ export function registerSettings() {
     hint: `Height of compendium items. Use 55px for compact view. Default: 70px`,
     type: Number,
     range: {
-      min: 20,
+      min: 25,
       max: 100,
       step: 5,
     },
@@ -70,10 +71,11 @@ export function registerSettings() {
   game.settings.register(CONSTANTS.MODULE_ID, "applyMinimalCss", {
     name: `${CONSTANTS.MODULE_ID}.settings.applyMinimalCss.name`,
     hint: `${CONSTANTS.MODULE_ID}.settings.applyMinimalCss.hint`,
-    scope: "client",
+    scope: "world",
     config: true,
     default: false,
     type: Boolean,
+    onChange: debouncedRender,
   });
 
   // for (const t of TYPES) {

@@ -1,7 +1,7 @@
 import { CompendiumThemerContainer } from "./compendium-themer-collection";
 import CONSTANTS from "./constants";
 
-export function applyChangesCompendiumBannerBase() {
+export function applyChangesCompendiumBannerBasePre() {
   const compendiumItems = document.querySelectorAll(".compendium-sidebar .directory-item.compendium");
 
   compendiumItems.forEach((item) => {
@@ -11,7 +11,9 @@ export function applyChangesCompendiumBannerBase() {
   compendiumItems.forEach((item) => {
     item.style.height = `${game.settings.get(CONSTANTS.MODULE_ID, "bannerHeight")}px`;
   });
+}
 
+export function applyChangesCompendiumBannerBasePost() {
   if (game.settings.get(CONSTANTS.MODULE_ID, "hideSource")) {
     const sourceItems = document.querySelectorAll(".compendium-sidebar .directory-item.compendium .compendium-footer");
 
@@ -41,12 +43,25 @@ export function applyChangesCompendiumHeader() {
       const bannerImage = element.bannerImage;
 
       const headerBanner = document.querySelectorAll(`.directory.compendium[data-pack='${dataPack}'] .header-banner`);
-      headerBanner.forEach((item) => {
-        item.style.color = colorText;
-        item.style["background-image"] = `url('${bannerImage}')`;
-        item.style["background-repeat"] = `no-repeat`;
-        item.style["background-position"] = `center`;
-        item.style["background-size"] = `cover`;
+      headerBanner?.forEach((item) => {
+        if (colorText) {
+          item.style.color = colorText;
+        }
+        if (bannerImage) {
+          item.style["background-image"] = `url('${bannerImage}')`;
+          item.style["background-repeat"] = `no-repeat`;
+          item.style["background-position"] = `center`;
+          item.style["background-size"] = `cover`;
+        }
+      });
+
+      const icons = document.querySelectorAll(
+        `.directory.compendium[data-pack='${dataPack}'] .header-banner .compendium-name >  i`
+      );
+      icons?.forEach((source) => {
+        if (iconText) {
+          source.setAttribute("class", iconText);
+        }
       });
     }
   }
@@ -66,26 +81,47 @@ export function applyChangesCompendiumBanner() {
       const images = document.querySelectorAll(
         `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}'] .compendium-banner`
       );
-      images.forEach((image) => {
-        image.remove();
+      // images?.forEach((image) => {
+      //   image.remove();
+      // });
+      images?.forEach((image) => {
+        if (bannerImage) {
+          // image.setAttribute("src", bannerImage);
+          image.dataset.src = bannerImage;
+        }
       });
 
       const compendiumItems = document.querySelectorAll(
         `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}']`
       );
-      compendiumItems.forEach((item) => {
-        item.style.color = colorText;
-        const myImage = new Image();
-        myImage.src = bannerImage;
-        myImage.classList.add("compendium-banner");
-        item.prepend(myImage);
+      compendiumItems?.forEach((item) => {
+        if (colorText) {
+          item.style.color = colorText;
+        }
+        // if (bannerImage) {
+        //   const myImage = new Image();
+        //   myImage.src = bannerImage;
+        //   myImage.classList.add("compendium-banner");
+        //   item.prepend(myImage);
+        // }
       });
 
       const sourceFooter = document.querySelectorAll(
         `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}'] .compendium-footer`
       );
-      sourceFooter.forEach((source) => {
-        source.style.color = colorText;
+      sourceFooter?.forEach((source) => {
+        if (colorText) {
+          source.style.color = colorText;
+        }
+      });
+
+      const icons = document.querySelectorAll(
+        `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}'] .compendium-name >  i`
+      );
+      icons?.forEach((source) => {
+        if (iconText) {
+          source.setAttribute("class", iconText);
+        }
       });
     }
   }
@@ -95,7 +131,7 @@ export function applyChangeMinimalCss() {
   let elements1 = document.querySelectorAll("#compendium .directory-item.compendium");
   elements1?.forEach((source) => {
     source.style.position = "relative";
-    source.style["line-height"] = "24px";
+    source.style["line-height"] = "25px"; // "24px";
     source.style.height = "unset";
     source.style["flex-direction"] = "row";
     source.style["align-items"] = "center";
