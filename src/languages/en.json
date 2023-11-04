@@ -1,0 +1,20 @@
+{
+  "compendium-themer.settings.removeBanners.name": "Remove Banner Images",
+  "compendium-themer.settings.removeBanners.hint": "All compendium banner images will be removed.",
+  "compendium-themer.settings.bannerHeight.name": "Banners Height",
+  "compendium-themer.settings.bannerHeight.hint": "Height of compendium items. Use 55px for compact view. Default: 70px",
+  "compendium-themer.settings.hideSource.name": "Hide Compendium Source",
+  "compendium-themer.settings.hideSource.hint": "Compendium source in the bottom left corner will be hidden.",
+  "compendium-themer.settings.labelAlignment.name": "Label Alignment",
+  "compendium-themer.settings.labelAlignment.hint": "The side to which compendium label will be aligned.",
+  "compendium-themer.settings.reset.name": "Reset settings to default",
+  "compendium-themer.settings.reset.label": "Reset Settings To Default",
+  "compendium-themer.settings.reset.hint": "This will reset all of the settings of back to the active game system's default.",
+  "compendium-themer.settings.debug.name": "Enable debugging",
+  "compendium-themer.settings.debug.label": "Prints debug messages to the console",
+  "compendium-themer.settings.debug.hint": " ",
+  "compendium-themer.dialogss.resetsettings.title": "Reset Module Settings",
+  "compendium-themer.dialogss.resetsettings.content": "Are you sure you want to reset all of the module settings to the current system's defaults? <strong>THIS CANNOT BE UNDONE!</strong>",
+  "compendium-themer.dialogss.resetsettings.confirm": "Reset Module Settings",
+  "compendium-themer.dialogss.resetsettings.cancel": "Cancel"
+}

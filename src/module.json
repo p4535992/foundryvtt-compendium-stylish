@@ -1,21 +1,57 @@
 {
-	"id": "custom-compendium-banners",
-	"title": "Custom Compendium Banners",
-	"description": "Adds the ability to change default compendium banner images for each document type or remove banners altogether.",
-	"authors": [
-		{
-			"name": "Phenomen",
-			"discord": "phenomen#1337"
-		}
-	],
-	"version": "1.3",
-	"compatibility": {
-		"minimum": "11",
-		"verified": "11",
-		"maximum": "11"
-	},
-	"esmodules": ["index.js"],
-	"url": "https://github.com/phenomen/fvtt-custom-compendium-banners",
-	"manifest": "https://raw.githubusercontent.com/phenomen/fvtt-custom-compendium-banners/main/module.json",
-	"download": "https://github.com/phenomen/fvtt-custom-compendium-banners/archive/refs/heads/main.zip"
+  "id": "compendium-themer",
+  "title": "Compendium Themer",
+  "description": "Add some custom compendium banner images, text color and style to the compendium directory",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "p4535992",
+      "url": "https://github.com/p4535992",
+      "discord": "",
+      "twitter": "",
+      "patreon": "",
+      "github": "p4535992",
+      "ko-fi": "",
+      "reddit": "",
+      "email": ""
+    }
+  ],
+  "type": "module",
+  "socket": true,
+  "scripts": [],
+  "esmodules": ["module.js"],
+  "styles": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch (German)",
+      "path": "languages/de.json",
+      "flags": {}
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11,
+    "maximum": 11
+  },
+  "url": "https://github.com/p4535992/foundryvtt-compendium-themer",
+  "manifest": "https://github.com/p4535992/foundryvtt-compendium-themer/releases/download/1.0.0/module.json",
+  "download": "https://github.com/p4535992/foundryvtt-compendium-themer/releases/download/1.0.0/module.zip",
+  "readme": "https://github.com/p4535992/foundryvtt-compendium-themer/blob/master/README.md",
+  "changelog": "https://github.com/p4535992/foundryvtt-compendium-themer/blob/master/CHANGELOG.md",
+  "bugs": "https://github.com/p4535992/foundryvtt-compendium-themer/issues",
+  "allowBugReporter": true,
+  "manifestPlusVersion": "1.2.0",
+  "relationships": {
+    "systems": [],
+    "requires": [],
+    "conflicts": []
+  }
 }
