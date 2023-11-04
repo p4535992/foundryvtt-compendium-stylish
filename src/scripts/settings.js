@@ -67,6 +67,15 @@ export function registerSettings() {
     onChange: debouncedRender,
   });
 
+  game.settings.register(CONSTANTS.MODULE_ID, "applyMinimalCss", {
+    name: `${CONSTANTS.MODULE_ID}.settings.applyMinimalCss.name`,
+    hint: `${CONSTANTS.MODULE_ID}.settings.applyMinimalCss.hint`,
+    scope: "client",
+    config: true,
+    default: false,
+    type: Boolean,
+  });
+
   // for (const t of TYPES) {
   //   game.settings.register(CONSTANTS.MODULE_ID, t, {
   //     name: `${t} Banner`,
@@ -90,8 +99,8 @@ export function registerSettings() {
   // =====================================================================
 
   game.settings.register(CONSTANTS.MODULE_ID, "debug", {
-    name: `${CONSTANTS.MODULE_ID}.Settings.debug.name`,
-    hint: `${CONSTANTS.MODULE_ID}.Settings.debug.hint`,
+    name: `${CONSTANTS.MODULE_ID}.settings.debug.name`,
+    hint: `${CONSTANTS.MODULE_ID}.settings.debug.hint`,
     scope: "client",
     config: true,
     default: false,

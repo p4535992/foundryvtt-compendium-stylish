@@ -10,6 +10,8 @@
   "compendium-themer.settings.reset.name": "Reset settings to default",
   "compendium-themer.settings.reset.label": "Reset Settings To Default",
   "compendium-themer.settings.reset.hint": "This will reset all of the settings of back to the active game system's default.",
+  "compendium-themer.settings.applyMinimalCss.name": "Apply Minimal CSS",
+  "compendium-themer.settings.applyMinimalCss.hint": "Apply some style to the compendium directory for make the elements more small but still readable.",
   "compendium-themer.settings.debug.name": "Enable debugging",
   "compendium-themer.settings.debug.label": "Prints debug messages to the console",
   "compendium-themer.settings.debug.hint": " ",

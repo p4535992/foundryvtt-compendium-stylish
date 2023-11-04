@@ -1,6 +1,7 @@
 import API from "./scripts/api";
 import CONSTANTS from "./scripts/constants";
 import {
+  applyChangeMinimalCss,
   applyChangesCompendiumBanner,
   applyChangesCompendiumBannerBase,
   applyChangesCompendiumHeader,
@@ -15,18 +16,21 @@ Hooks.on("renderSidebarTab", (tab) => {
   if (tab instanceof CompendiumDirectory) {
     applyChangesCompendiumBanner();
     applyChangesCompendiumBannerBase();
+    if (game.settings.get(CONSTANTS.MODULE_ID, "applyMinimalCss")) {
+      applyChangeMinimalCss();
+    }
   }
   if (tab instanceof Compendium) {
     applyChangesCompendiumHeader();
   }
 });
 
-Hooks.on("changeSidebarTab", (tab) => {
-  if (tab instanceof CompendiumDirectory) {
-    applyChangesCompendiumBanner();
-    applyChangesCompendiumBannerBase();
-  }
-  if (tab instanceof Compendium) {
-    applyChangesCompendiumHeader();
-  }
-});
+// Hooks.on("changeSidebarTab", (tab) => {
+//   if (tab instanceof CompendiumDirectory) {
+//     applyChangesCompendiumBanner();
+//     applyChangesCompendiumBannerBase();
+//   }
+//   if (tab instanceof Compendium) {
+//     applyChangesCompendiumHeader();
+//   }
+// });
