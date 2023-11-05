@@ -16,7 +16,7 @@
 
 ### If you want to buy me a coffee [![alt-text](https://img.shields.io/badge/-Patreon-%23ff424d?style=for-the-badge)](https://www.patreon.com/p4535992)
 
-A module to customize banner images and text color of compendiums . A small module to help better search for specific module compendiums when they start to be several.
+Add some custom compendium banner images, text color and style to the compendium directory. A small module to help better search for specific module compendiums when they start to be several.
 
 Table of supported modules
 
