@@ -2,7 +2,7 @@
   "id": "compendium-themer",
   "title": "Compendium Themer",
   "description": "Add some custom compendium banner images, text color and style to the compendium directory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     {
       "name": "p4535992",
@@ -36,8 +36,8 @@
     "maximum": 11
   },
   "url": "https://github.com/p4535992/foundryvtt-compendium-themer",
-  "manifest": "https://github.com/p4535992/foundryvtt-compendium-themer/releases/download/1.0.1/module.json",
-  "download": "https://github.com/p4535992/foundryvtt-compendium-themer/releases/download/1.0.1/module.zip",
+  "manifest": "https://github.com/p4535992/foundryvtt-compendium-themer/releases/download/1.0.2/module.json",
+  "download": "https://github.com/p4535992/foundryvtt-compendium-themer/releases/download/1.0.2/module.zip",
   "readme": "https://github.com/p4535992/foundryvtt-compendium-themer/blob/master/README.md",
   "changelog": "https://github.com/p4535992/foundryvtt-compendium-themer/blob/master/CHANGELOG.md",
   "bugs": "https://github.com/p4535992/foundryvtt-compendium-themer/issues",
