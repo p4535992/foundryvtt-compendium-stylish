@@ -31,7 +31,7 @@ export function registerSettings() {
     hint: `Height of compendium items. Use 55px for compact view. Default: 70px`,
     type: Number,
     range: {
-      min: 25,
+      min: 24,
       max: 100,
       step: 5,
     },

@@ -6,9 +6,6 @@ export function applyChangesCompendiumBannerBasePre() {
 
   compendiumItems.forEach((item) => {
     item.style.alignItems = game.settings.get(CONSTANTS.MODULE_ID, "labelAlignment");
-  });
-
-  compendiumItems.forEach((item) => {
     item.style.height = `${game.settings.get(CONSTANTS.MODULE_ID, "bannerHeight")}px`;
   });
 }
@@ -131,8 +128,9 @@ export function applyChangeMinimalCss() {
   let elements1 = document.querySelectorAll("#compendium .directory-item.compendium");
   elements1?.forEach((source) => {
     source.style.position = "relative";
-    source.style["line-height"] = "25px"; // "24px";
+    source.style["line-height"] = "24px";
     source.style.height = "unset";
+
     source.style["flex-direction"] = "row";
     source.style["align-items"] = "center";
   });

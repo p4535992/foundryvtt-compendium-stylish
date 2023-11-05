@@ -25,7 +25,7 @@ Table of supported modules
 | [mmm](https://github.com/theripper93/Maxwell-s-Manual-of-Malicious-Maladies) | Maxwell's Manual of Malicious Maladies - A module for all your lingering injuries needs (dnd5e) |
 | compendiums-mythos-workshop-dnd5e                     | A shared compendium private module 
 
-TODO other modules on request
+ON DEMAND other modules on request open a issue on the github project
 
 ### Example
 
@@ -33,9 +33,13 @@ TODO other modules on request
 
 ![](./wiki/before1.png)
 
-**AFTER**
+**AFTER (without minimal css enabled)**
 
-![](./wiki/after1.png)
+![](./wiki/after_without_minimal_css.png)
+
+**AFTER (with minimal css enabled)**
+
+![](./wiki/after_with_minimal_css.png)
 
 ## Installation
 
@@ -106,5 +110,10 @@ Any issues, bugs, or feature requests are always welcome to be reported directly
 
 ## License
 
+- **[Custom Compendium Banner](https://github.com/phenomen/fvtt-custom-compendium-banners)** : [???]()
+
 This package is under an [MIT license](LICENSE) and the [Foundry Virtual Tabletop Limited License Agreement for module development](https://foundryvtt.com/article/license/).
 
+## Credit
+
+- Ty to [phenomen](https://github.com/phenomen) and the module [Custom Compendium Banner](https://github.com/phenomen/fvtt-custom-compendium-banners)

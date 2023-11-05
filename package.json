@@ -2,7 +2,7 @@
 	"name": "compendium-themer",
 	"title": "Compendium Themer",
 	"description": "Add some custom compendium banner images, text color and style to the compendium directory",
-	"version": "2.0.21",
+	"version": "1.0.1",
 	"main": "module.js",
 	"license": "SEE LICENSE IN LICENSE",
 	"private": true,
