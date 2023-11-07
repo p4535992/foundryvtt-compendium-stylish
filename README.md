@@ -22,7 +22,7 @@ Table of supported modules
 
 | Module ID                                             | NOTES                                           | IMAGE LICENSE DETAIL |
 |-------------------------------------------------------|-------------------------------------------------|----------------------|
-| [mmm](https://github.com/theripper93/Maxwell-s-Manual-of-Malicious-Maladies) | Maxwell's Manual of Malicious Maladies - A module for all your lingering injuries needs (dnd5e) | [Images](/src/assets/mmm/) All images and graphics contained in this material are free use and retrieved from: [pixabay.com](https://pixabay.com/) |
+| [mmm](https://github.com/theripper93/Maxwell-s-Manual-of-Malicious-Maladies) | [Maxwell's Manual of Malicious Maladies - A module for all your lingering injuries needs (dnd5e)](https://drive.google.com/file/d/1z_oTJvusofehZoFKp8iDhRdZlMjWVxa_/view?usp=sharing) | [Images](/src/assets/mmm/) All images and graphics contained in this material are free use and retrieved from: [pixabay.com](https://pixabay.com/) |
 | compendiums-mythos-workshop-dnd5e                     | A shared compendium private module  | [Images](/src/assets/compendiums-mythos-workshop-dnd5e/) Image Generated with [bing create](https://www.bing.com/create) under these [term of use](https://www.bing.com/new/termsofuse?FORM=GENTOS) |
 
 ON DEMAND other modules on request open a issue on the github project
