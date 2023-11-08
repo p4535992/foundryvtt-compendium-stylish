@@ -110,10 +110,9 @@ Any issues, bugs, or feature requests are always welcome to be reported directly
 
 ## License
 
-- **[Custom Compendium Banner](https://github.com/phenomen/fvtt-custom-compendium-banners)** : [???]()
+- Images for the module [mmm](https://github.com/theripper93/Maxwell-s-Manual-of-Malicious-Maladies) with source [Maxwell's Manual of Malicious Maladies - A module for all your lingering injuries needs (dnd5e)](https://drive.google.com/file/d/1z_oTJvusofehZoFKp8iDhRdZlMjWVxa_/view?usp=sharing) in the folder [images](/src/assets/mmm/) are free use and retrieved from: [pixabay.com](https://pixabay.com/)
+- Images for the module [compendiums-mythos-workshop-dnd5e]() with source [shared compendium private module]() in the folder [Images](/src/assets/compendiums-mythos-workshop-dnd5e/) are generated with [bing create](https://www.bing.com/create) under these [term of use](https://www.bing.com/new/termsofuse?FORM=GENTOS)
 
 This package is under an [MIT license](LICENSE) and the [Foundry Virtual Tabletop Limited License Agreement for module development](https://foundryvtt.com/article/license/).
 
-## Credit
 
-- Ty to [phenomen](https://github.com/phenomen) and the module [Custom Compendium Banner](https://github.com/phenomen/fvtt-custom-compendium-banners)
