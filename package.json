@@ -1,8 +1,8 @@
 {
 	"name": "compendium-themer",
 	"title": "Compendium Themer",
-	"description": "Add some custom compendium banner images, text color and style to the compendium directory",
-	"version": "1.0.1",
+	"description": "A very little module to add some custom compendium banner images, text color and style to the compendium directory. A small module to help better search for specific module compendiums when they start to be several.",
+	"version": "1.0.3",
 	"main": "module.js",
 	"license": "SEE LICENSE IN LICENSE",
 	"private": true,

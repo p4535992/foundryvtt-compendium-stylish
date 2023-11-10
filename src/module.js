@@ -1,4 +1,5 @@
 import API from "./scripts/api";
+import { CompendiumThemerContainer } from "./scripts/compendium-themer-collection";
 import CONSTANTS from "./scripts/constants";
 import {
   applyChangeMinimalCss,
@@ -28,6 +29,11 @@ Hooks.once("setup", function () {
 
   const data = game.modules.get(CONSTANTS.MODULE_ID);
   data.api = API;
+
+  game.modules.get(CONSTANTS.MODULE_ID).api.compendiumThemerContainer = mergeObject(
+    CompendiumThemerContainer,
+    game.settings.get(CONSTANTS.MODULE_ID, "configurations")
+  );
 });
 
 /* ------------------------------------ */

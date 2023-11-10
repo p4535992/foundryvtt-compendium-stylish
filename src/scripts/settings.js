@@ -14,6 +14,16 @@ export function registerSettings() {
     restricted: true,
   });
 
+  game.settings.register(CONSTANTS.MODULE_ID, "configurations", {
+    name: `${CONSTANTS.MODULE_ID}.settings.configurations.name`,
+    hint: `${CONSTANTS.MODULE_ID}.settings.configurations.hint`,
+    scope: "world",
+    config: false,
+    type: Object,
+    default: {},
+    onChange: debouncedRender,
+  });
+
   game.settings.register(CONSTANTS.MODULE_ID, "removeBanners", {
     name: `Remove Banner Images`,
     hint: `All compendium banner images will be removed.`,

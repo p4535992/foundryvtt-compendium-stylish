@@ -1,4 +1,4 @@
-import { CompendiumThemerContainer } from "./compendium-themer-collection";
+import API from "./api";
 import CONSTANTS from "./constants";
 
 export function applyChangesCompendiumBannerBasePre() {
@@ -29,7 +29,7 @@ export function applyChangesCompendiumBannerBasePost() {
 }
 
 export function applyChangesCompendiumHeader() {
-  for (const [key, value] of Object.entries(CompendiumThemerContainer)) {
+  for (const [key, value] of Object.entries(API.compendiumThemerContainer)) {
     for (const element of value) {
       if (!element) {
         continue;
@@ -65,7 +65,7 @@ export function applyChangesCompendiumHeader() {
 }
 
 export function applyChangesCompendiumBanner() {
-  for (const [key, value] of Object.entries(CompendiumThemerContainer)) {
+  for (const [key, value] of Object.entries(API.compendiumThemerContainer)) {
     for (const element of value) {
       if (!element) {
         continue;

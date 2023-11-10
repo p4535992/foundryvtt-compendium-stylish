@@ -16,16 +16,17 @@
 
 ### If you want to buy me a coffee [![alt-text](https://img.shields.io/badge/-Patreon-%23ff424d?style=for-the-badge)](https://www.patreon.com/p4535992)
 
-Add some custom compendium banner images, text color and style to the compendium directory. A small module to help better search for specific module compendiums when they start to be several.
+A very little module to add some custom compendium banner images, text color and style to the compendium directory. A small module to help better search for specific module compendiums when they start to be several.
 
-Table of supported modules
+ON DEMAND you can ask me to add other modules by open a issue on the github .
+
+### Table of supported modules
 
 | Module ID                                             | NOTES                                           | IMAGE LICENSE DETAIL |
 |-------------------------------------------------------|-------------------------------------------------|----------------------|
 | [mmm](https://github.com/theripper93/Maxwell-s-Manual-of-Malicious-Maladies) | [Maxwell's Manual of Malicious Maladies - A module for all your lingering injuries needs (dnd5e)](https://drive.google.com/file/d/1z_oTJvusofehZoFKp8iDhRdZlMjWVxa_/view?usp=sharing) | [Images](/src/assets/mmm/) All images and graphics contained in this material are free use and retrieved from: [pixabay.com](https://pixabay.com/) |
 | compendiums-mythos-workshop-dnd5e                     | A private compendium module | [Images](/src/assets/compendiums-mythos-workshop-dnd5e/) Image Generated with [bing create](https://www.bing.com/create) under these [term of use](https://www.bing.com/new/termsofuse?FORM=GENTOS) |
 
-ON DEMAND other modules on request open a issue on the github project
 
 ### Example
 
@@ -58,7 +59,7 @@ To install this module manually:
 
 # API
 
-TODO
+All informations about the api can be found here [API](./wiki/api/api.md)
 
 # Build
 

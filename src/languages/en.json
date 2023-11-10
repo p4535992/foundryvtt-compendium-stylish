@@ -1,4 +1,6 @@
 {
+  "compendium-themer.settings.configurations.name": "Configurations",
+  "compendium-themer.settings.configurations.hint": "Configurations",
   "compendium-themer.settings.removeBanners.name": "Remove Banner Images",
   "compendium-themer.settings.removeBanners.hint": "All compendium banner images will be removed.",
   "compendium-themer.settings.bannerHeight.name": "Banners Height",
