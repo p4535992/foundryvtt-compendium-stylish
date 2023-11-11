@@ -38,17 +38,28 @@ export function applyChangesCompendiumHeader() {
       const colorText = element.colorText;
       const iconText = element.iconText;
       const bannerImage = element.bannerImage;
+      const backgroundColorText = element.backgroundColorText;
 
       const headerBanner = document.querySelectorAll(`.directory.compendium[data-pack='${dataPack}'] .header-banner`);
       headerBanner?.forEach((item) => {
-        if (colorText) {
-          item.style.color = colorText;
-        }
         if (bannerImage) {
           item.style["background-image"] = `url('${bannerImage}')`;
           item.style["background-repeat"] = `no-repeat`;
           item.style["background-position"] = `center`;
           item.style["background-size"] = `cover`;
+        }
+      });
+
+      const headerTextBanner = document.querySelectorAll(
+        `.directory.compendium[data-pack='${dataPack}'] .header-banner > h3`
+      );
+      headerTextBanner?.forEach((item) => {
+        if (colorText) {
+          item.style.color = colorText;
+        }
+        if (backgroundColorText) {
+          item.style.background = backgroundColorText;
+          item.style.opacity = 0.7;
         }
       });
 
@@ -74,6 +85,7 @@ export function applyChangesCompendiumBanner() {
       const colorText = element.colorText;
       const iconText = element.iconText;
       const bannerImage = element.bannerImage;
+      const backgroundColorText = element.backgroundColorText;
 
       const images = document.querySelectorAll(
         `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}'] .compendium-banner`
@@ -89,11 +101,15 @@ export function applyChangesCompendiumBanner() {
       });
 
       const compendiumItems = document.querySelectorAll(
-        `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}']`
+        `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}'] > h3`
       );
       compendiumItems?.forEach((item) => {
         if (colorText) {
           item.style.color = colorText;
+        }
+        if (backgroundColorText) {
+          item.style.background = backgroundColorText;
+          item.style.opacity = 0.7;
         }
         // if (bannerImage) {
         //   const myImage = new Image();
@@ -104,11 +120,15 @@ export function applyChangesCompendiumBanner() {
       });
 
       const sourceFooter = document.querySelectorAll(
-        `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}'] .compendium-footer`
+        `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}'] .compendium-footer .source`
       );
       sourceFooter?.forEach((source) => {
         if (colorText) {
           source.style.color = colorText;
+        }
+        if (backgroundColorText) {
+          source.style.background = backgroundColorText;
+          source.style.opacity = 0.7;
         }
       });
 

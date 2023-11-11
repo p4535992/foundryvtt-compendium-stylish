@@ -21,10 +21,11 @@ A `Theme` is a object with these property:
 
 | Param           | Type       | Default | Description                                                         |
 |-----------------|------------|---------|---------------------------------------------------------------------|
-| dataPack        | `string`   |  null   | The data pack reference e.g. `mmm.mmmm`                             |
-| colorText       | `string`   |  null   | The hex color to apply to the text e.g. `#ff5252`                   |
-| iconText        | `string`   |  null   | The font awesome icon class to apply to the title e.g. `fa-solid fa-skull-crossbones` |
-| bannerImage     | `string`   |  null   | The banner image to apply as background e.g.  `modules/XXX/assets/mmm/cover.webp` |
+| dataPack        | `string`   |  null   | OPTIONAL: The data pack reference e.g. `mmm.mmmm`                             |
+| colorText       | `string`   |  null   | OPTIONAL: The hex color to apply to the text e.g. `#ff5252`                   |
+| iconText        | `string`   |  null   | OPTIONAL: The font awesome icon class to apply to the title e.g. `fa-solid fa-skull-crossbones` |
+| bannerImage     | `string`   |  null   | OPTIONAL: The banner image to apply as background e.g.  `modules/XXX/assets/mmm/cover.webp` |
+| backgroundColorText | `string` | null  | OPTIONAL: The hex color to apply to the background text panel e.g. `#ece9df` |
 
 **Example**:
 
