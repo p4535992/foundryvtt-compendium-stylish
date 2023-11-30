@@ -13,6 +13,7 @@ const API = {
    * @param {string} options[].iconText            The font awesome icon class to apply to the title e.g. `fa-solid fa-skull-crossbones`
    * @param {string} options[].bannerImage         The banner image to apply as background e.g.  `modules/XXX/assets/mmm/cover.webp`
    * @param {string} options[].backgroundColorText The hex color to apply to the background text panel e.g. `#ece9df`
+   * @param {string} options[].fontFamilyText      The font family applied to the text e.g. `Impact,Charcoal,sans-serif`
    * @returns {Promise<Void>}
    */
   async addModule(moduleId, options) {

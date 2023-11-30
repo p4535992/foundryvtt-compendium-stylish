@@ -39,6 +39,7 @@ export function applyChangesCompendiumHeader() {
       const iconText = element.iconText;
       const bannerImage = element.bannerImage;
       const backgroundColorText = element.backgroundColorText;
+      const fontFamilyText = element.fontFamilyText;
 
       const headerBanner = document.querySelectorAll(`.directory.compendium[data-pack='${dataPack}'] .header-banner`);
       headerBanner?.forEach((item) => {
@@ -60,6 +61,9 @@ export function applyChangesCompendiumHeader() {
         if (backgroundColorText) {
           item.style.background = backgroundColorText;
           item.style.opacity = 0.7;
+        }
+        if (fontFamilyText) {
+          item.style.fontFamily = fontFamilyText;
         }
       });
 
@@ -86,6 +90,7 @@ export function applyChangesCompendiumBanner() {
       const iconText = element.iconText;
       const bannerImage = element.bannerImage;
       const backgroundColorText = element.backgroundColorText;
+      const fontFamilyText = element.fontFamilyText;
 
       const images = document.querySelectorAll(
         `.compendium-sidebar .directory-item.compendium[data-pack='${dataPack}'] .compendium-banner`
@@ -111,6 +116,9 @@ export function applyChangesCompendiumBanner() {
           item.style.background = backgroundColorText;
           item.style.opacity = 0.7;
         }
+        if (fontFamilyText) {
+          item.style.fontFamily = fontFamilyText;
+        }
         // if (bannerImage) {
         //   const myImage = new Image();
         //   myImage.src = bannerImage;
@@ -129,6 +137,9 @@ export function applyChangesCompendiumBanner() {
         if (backgroundColorText) {
           source.style.background = backgroundColorText;
           source.style.opacity = 0.7;
+        }
+        if (fontFamilyText) {
+          source.style.fontFamily = fontFamilyText;
         }
       });
 

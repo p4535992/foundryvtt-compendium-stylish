@@ -26,7 +26,7 @@ ON DEMAND you can ask me to add other modules by open a issue on the github .
 |-------------------------------------------------------|-------------------------------------------------|----------------------|
 | [mmm](https://github.com/theripper93/Maxwell-s-Manual-of-Malicious-Maladies) | [Maxwell's Manual of Malicious Maladies - A module for all your lingering injuries needs (dnd5e)](https://drive.google.com/file/d/1z_oTJvusofehZoFKp8iDhRdZlMjWVxa_/view?usp=sharing) | [Images](/src/assets/mmm/) All images and graphics contained in this material are free use and retrieved from: [pixabay.com](https://pixabay.com/) |
 | compendiums-mythos-workshop-dnd5e                     | A private compendium module | [Images](/src/assets/compendiums-mythos-workshop-dnd5e/) Image Generated with [bing create](https://www.bing.com/create) under these [term of use](https://www.bing.com/new/termsofuse?FORM=GENTOS) |
-
+|[Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) | | Images recover from the module himself |
 
 ### Example
 
@@ -113,6 +113,7 @@ Any issues, bugs, or feature requests are always welcome to be reported directly
 
 - Images for the module [mmm](https://github.com/theripper93/Maxwell-s-Manual-of-Malicious-Maladies) with source [Maxwell's Manual of Malicious Maladies - A module for all your lingering injuries needs (dnd5e)](https://drive.google.com/file/d/1z_oTJvusofehZoFKp8iDhRdZlMjWVxa_/view?usp=sharing) in the folder [images](/src/assets/mmm/) are free use and retrieved from: [pixabay.com](https://pixabay.com/)
 - Images for the module [compendiums-mythos-workshop-dnd5e]() with source a private compendium module in the folder [Images](/src/assets/compendiums-mythos-workshop-dnd5e/) are generated with [bing create](https://www.bing.com/create) under these [term of use](https://www.bing.com/new/termsofuse?FORM=GENTOS)
+- Images for the module [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) with source recovered from the module himself are under these [term of use](https://foundryvtt.com/article/license/)
 
 This package is under an [MIT license](LICENSE) and the [Foundry Virtual Tabletop Limited License Agreement for module development](https://foundryvtt.com/article/license/).
 

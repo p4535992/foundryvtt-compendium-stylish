@@ -26,6 +26,7 @@ A `Theme` is a object with these property:
 | iconText        | `string`   |  null   | OPTIONAL: The font awesome icon class to apply to the title e.g. `fa-solid fa-skull-crossbones` |
 | bannerImage     | `string`   |  null   | OPTIONAL: The banner image to apply as background e.g.  `modules/XXX/assets/mmm/cover.webp` |
 | backgroundColorText | `string` | null  | OPTIONAL: The hex color to apply to the background text panel e.g. `#ece9df` |
+| fontFamilyText | `string` | null  | OPTIONAL: The hex color to apply to the background text panel e.g. `#ece9df` |
 
 **Example**:
 

@@ -29,4 +29,34 @@ export const CompendiumThemerContainer = {
       bannerImage: `modules/${CONSTANTS.MODULE_ID}/assets/compendiums-mythos-workshop-dnd5e/cover.webp`,
     },
   ],
+  "brodericks-compendium": [
+    {
+      dataPack: `brodericks-compendium.monsters`,
+      colorText: `#136b00`,
+      iconText: `fa-solid fa-ghost`,
+      bannerImage: `modules/brodericks-compendium/images/banner-monsters.webp`,
+      backgroundColorText: `#D3B683`,
+    },
+    {
+      dataPack: `brodericks-compendium.plants`,
+      colorText: `#136b00`,
+      iconText: `fa-solid fa-hand-holding-seedling`,
+      bannerImage: `modules/brodericks-compendium/images/banner-plants.webp`,
+      backgroundColorText: `#D3B683`,
+    },
+    {
+      dataPack: `brodericks-compendium.books`,
+      colorText: `#136b00`,
+      iconText: `fa-solid fa-book-section`,
+      bannerImage: `modules/brodericks-compendium/images/banner-books.webp`,
+      backgroundColorText: `#D3B683`,
+    },
+    {
+      dataPack: `brodericks-compendium.planttables`,
+      colorText: `#136b00`,
+      iconText: `fa-solid fa-bag-seedling`,
+      bannerImage: `modules/brodericks-compendium/images/banner-planttables.webp`,
+      backgroundColorText: `#D3B683`,
+    },
+  ],
 };
