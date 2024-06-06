@@ -1,3 +1,7 @@
+### 1.0.6
+
+- Add compatibility vtt12
+
 ### 1.0.5
 
 - Aff font familiy text option to the module and the API
