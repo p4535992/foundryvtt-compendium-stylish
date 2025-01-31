@@ -1,3 +1,8 @@
+### 12.0.0
+
+- Add japanaese language  ty to @ryotai-trpg for the PR https://github.com/p4535992/foundryvtt-compendium-themer/pull/1
+- Add setting for text alignment ty to @ryotai-trpg for the PR https://github.com/p4535992/foundryvtt-compendium-themer/pull/1
+
 ### 1.0.6
 
 - Add compatibility vtt12

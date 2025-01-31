@@ -1,6 +1,6 @@
 const CONSTANTS = {
-  MODULE_ID: "compendium-themer",
-  PATH: `modules/compendium-themer/`,
+    MODULE_ID: "compendium-themer",
+    PATH: `modules/compendium-themer/`,
 };
 
 CONSTANTS.PATH = `modules/${CONSTANTS.MODULE_ID}/`;
