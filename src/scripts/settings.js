@@ -25,8 +25,8 @@ export function registerSettings() {
   });
 
   game.settings.register(CONSTANTS.MODULE_ID, "removeBanners", {
-    name: `Remove Banner Images`,
-    hint: `All compendium banner images will be removed.`,
+    name: `${CONSTANTS.MODULE_ID}.settings.removeBanners.name`,
+    hint: `${CONSTANTS.MODULE_ID}.settings.removeBanners.hint`,
     type: Boolean,
     default: false,
     scope: "world",
@@ -37,8 +37,8 @@ export function registerSettings() {
   });
 
   game.settings.register(CONSTANTS.MODULE_ID, "bannerHeight", {
-    name: `Banners Height`,
-    hint: `Height of compendium items. Use 55px for compact view. Default: 70px`,
+    name: `${CONSTANTS.MODULE_ID}.settings.bannerHeight.name`,
+    hint: `${CONSTANTS.MODULE_ID}.settings.bannerHeight.hint`,
     type: Number,
     range: {
       min: 24,
@@ -54,8 +54,8 @@ export function registerSettings() {
   });
 
   game.settings.register(CONSTANTS.MODULE_ID, "hideSource", {
-    name: `Hide Compendium Source`,
-    hint: `Compendium source in the bottom left corner will be hidden.`,
+    name: `${CONSTANTS.MODULE_ID}.settings.hideSource.name`,
+    hint: `${CONSTANTS.MODULE_ID}.settings.hideSource.hint`,
     type: Boolean,
     default: false,
     scope: "world",
@@ -66,10 +66,14 @@ export function registerSettings() {
   });
 
   game.settings.register(CONSTANTS.MODULE_ID, "labelAlignment", {
-    name: `Label Alignment`,
-    hint: `The side to which compendium label will be aligned.`,
+    name: `${CONSTANTS.MODULE_ID}.settings.labelAlignment.name`,
+    hint: `${CONSTANTS.MODULE_ID}.settings.labelAlignment.hint`,
     type: String,
-    choices: { start: "Left", center: "Center", end: "Right" },
+    choices: {
+        start: `${CONSTANTS.MODULE_ID}.settings.labelAlignment.choices.start`,
+        center: `${CONSTANTS.MODULE_ID}.settings.labelAlignment.choices.center`,
+        end: `${CONSTANTS.MODULE_ID}.settings.labelAlignment.choices.end`,
+    },
     default: "center",
     scope: "world",
     config: true,
